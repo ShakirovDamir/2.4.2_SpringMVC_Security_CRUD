@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<a th:href="@{/admin}"> Admin page</a>
+|
+<a th:href="@{/user}"> User information </a>
+|
+<a th:href="@{/logout}"> Logout </a>
+
+<form th:action="@{/editUser}" method="post" th:object="${user}">
+    <input type="hidden" name="id" th:value="${user.id}">
+
+    <fieldset>
+        <legend>Edit user</legend>
+        <p>
+            <label th:for="name">Name </label>
+            <input type="text" name="name" th:id="name" th:value="${user.name}">
+        </p>
+        <p>
+            <label th:for="surname">Surname </label>
+            <input type="text" name="surname" th:id="surname" th:value="${user.surname}">
+        </p>
+        <p>
+            <label th:for="department">Department </label>
+            <input type="text" name="department" th:id="department" th:value="${user.department}">
+        </p>
+        <p>
+            <label th:for="salary">Salary </label>
+            <input type="text" name="salary" th:id="salary" th:value="${user.salary}">
+        </p>
+        <p>
+            <label th:for="password">Password </label>
+            <input type="text" name="password" th:id="password" th:value="${user.password}">
+        </p>
+        <p>
+            <label th:for="roles">Roles </label>
+            <select multiple name="roles" size="3" th:id="roles" required th:value="${user.roles}">
+                <option disabled>Select roles</option>
+                <option th:each="role : ${allRoles}" th:value="${role}" th:text="${role.role}"></option>
+            </select>
+        </p>
+    </fieldset>
+
+    <input type="submit" value="Edit user">
+</form>
+</body>
+</html>

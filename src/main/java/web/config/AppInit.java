@@ -1,12 +1,9 @@
 package web.config;
-
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
-
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
 import javax.servlet.*;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -20,7 +17,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 //    };
     }
 
-
     // Добавление конфигурации, в которой инициализируем ViewResolver, для корректного отображения jsp.
     @Override
     protected Class<?>[] getServletConfigClasses() {
@@ -29,13 +25,11 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         };
     }
 
-
     /* Данный метод указывает url, на котором будет базироваться приложение */
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
-
 
     /* Данный метод служит для решения проблем с кодировкой, фильтр обрабатывает первичные запросы */
 
@@ -52,7 +46,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 //    encodingFilter.setInitParameter("forceEncoding", "true");
 //    encodingFilter.addMappingForUrlPatterns(null, true, "/*");
 //}
-
 
 //    @Override
 //    public void onStartup(ServletContext servletContext) throws ServletException {
@@ -76,7 +69,4 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 //        encodingFilter.setInitParameter("forceEncoding", "true");
 //        encodingFilter.addMappingForUrlPatterns(null, true, "/*");
 //    }
-
-
-
 }
