@@ -33,12 +33,12 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
     /* Данный метод служит для решения проблем с кодировкой, фильтр обрабатывает первичные запросы */
 
-    protected Filter[] getServletFilters() {
-        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
-        characterEncodingFilter.setEncoding("UTF-8");
-        characterEncodingFilter.setForceEncoding(true);
-        return new Filter[] {characterEncodingFilter};
-    }
+//    protected Filter[] getServletFilters() {
+//        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+//        characterEncodingFilter.setEncoding("UTF-8");
+//        characterEncodingFilter.setForceEncoding(true);
+//        return new Filter[] {characterEncodingFilter};
+//    }
 
 //public void onStartup(ServletContext servletContext) throws ServletException {
 //    FilterRegistration.Dynamic encodingFilter = servletContext.addFilter("encoding-filter", new CharacterEncodingFilter());
