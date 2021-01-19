@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="19.01.2021 16.22">
+    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="19.01.2021 16.30">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +50,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comMrvelik/Preproject_Security_2.4.2-master/Preproject_Security_2.4.2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comMetabolicM/spring-mvc-crud-sec-main/spring-mvc-crud-sec-main" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -199,6 +203,9 @@
       <workItem from="1611057155603" duration="3660000" />
       <workItem from="1611060980254" duration="1223000" />
       <workItem from="1611062307785" duration="630000" />
+      <workItem from="1611062981730" duration="4665000" />
+      <workItem from="1611090145207" duration="6133000" />
+      <workItem from="1611097501450" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="07.01.2021 16.56">
       <created>1610027811585</created>
@@ -277,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611062537986</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="19.01.2021 16.30">
+      <created>1611063073344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611063073344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +321,7 @@
     <MESSAGE value="19.01.2021 1.00" />
     <MESSAGE value="19.01.2021 16.00" />
     <MESSAGE value="19.01.2021 16.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.01.2021 16.22" />
+    <MESSAGE value="19.01.2021 16.30" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.01.2021 16.30" />
   </component>
 </project>

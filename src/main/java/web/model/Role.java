@@ -20,13 +20,6 @@ public class Role implements GrantedAuthority {
 
     public Role() {}
 
-    public Role(Long id) { this.id = id; }
-
-    public Role(Long id, String role) {
-        this.id = id;
-        this.role = role;
-    }
-
     public Role(String role) {
         if (role.equals("ROLE_ADMIN")) {
             this.id = 1L;
@@ -47,7 +40,8 @@ public class Role implements GrantedAuthority {
 
     public void setRole(String role) { this.role = role; }
 
-    public Set<User> getUsers() { return users; }
-
-    public void setUsers(Set<User> users) { this.users = users; }
+    @Override
+    public String toString() {
+        return role;
+    }
 }
