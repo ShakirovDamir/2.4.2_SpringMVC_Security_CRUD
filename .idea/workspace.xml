@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="19.01.2021 16.30">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="20.01.2021 2.41">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comMetabolicM/spring-mvc-crud-sec-main/spring-mvc-crud-sec-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.3.1 CRUD" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -205,7 +205,8 @@
       <workItem from="1611062307785" duration="630000" />
       <workItem from="1611062981730" duration="4665000" />
       <workItem from="1611090145207" duration="6133000" />
-      <workItem from="1611097501450" duration="1942000" />
+      <workItem from="1611097501450" duration="3043000" />
+      <workItem from="1611142981520" duration="5635000" />
     </task>
     <task id="LOCAL-00001" summary="07.01.2021 16.56">
       <created>1610027811585</created>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611063073344</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="20.01.2021 2.41">
+      <created>1611099734103</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611099734104</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="19.01.2021 16.00" />
     <MESSAGE value="19.01.2021 16.22" />
     <MESSAGE value="19.01.2021 16.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.01.2021 16.30" />
+    <MESSAGE value="20.01.2021 2.41" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.01.2021 2.41" />
   </component>
 </project>

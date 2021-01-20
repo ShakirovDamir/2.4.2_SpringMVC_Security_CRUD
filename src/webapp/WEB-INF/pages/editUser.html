@@ -6,15 +6,8 @@
     <title>Edit</title>
 </head>
 <body>
-<a th:href="@{/admin}"> Admin page</a>
-|
-<a th:href="@{/user}"> User information </a>
-|
-<a th:href="@{/logout}"> Logout </a>
-
 <form th:action="@{/editUser}" method="post" th:object="${user}">
     <input type="hidden" name="id" th:value="${user.id}">
-
     <fieldset>
         <legend>Edit user</legend>
         <p>
@@ -39,7 +32,7 @@
         </p>
         <p>
             <label th:for="roles">Roles </label>
-            <select multiple name="roles" size="3" th:id="roles" required th:value="${user.roles}">
+            <select multiple name="roles" size="2" th:id="roles" required th:value="${user.roles}">
                 <option disabled>Select roles</option>
                 <option th:each="role : ${allRoles}" th:value="${role}" th:text="${role.role}"></option>
             </select>
@@ -48,5 +41,10 @@
 
     <input type="submit" value="Edit user">
 </form>
+<a th:href="@{/admin}"> Admin page</a>
+|
+<a th:href="@{/user}"> User information </a>
+|
+<a th:href="@{/logout}"> Logout </a>
 </body>
 </html>

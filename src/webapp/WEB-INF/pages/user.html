@@ -8,9 +8,6 @@
 </head>
 <body>
 <div>
-    <a th:href="@{/logout}"> Logout </a>
-</div>
-<div>
     <h2>Users information</h2>
     <table border="2" th:object="${user}">
         <tr>
@@ -32,6 +29,9 @@
             <td th:utext="${user.roles}"></td>
         </tr>
     </table>
+</div>
+<div>
+    <a th:href="@{/logout}"> Logout </a>
 </div>
 </body>
 </html>

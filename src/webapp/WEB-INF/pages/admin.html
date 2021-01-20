@@ -11,28 +11,28 @@
         <fieldset>
             <legend>Create new User</legend>
             <p>
-                <label th:for="name">Name <em>*</em></label>
+                <label th:for="name">Name</label>
                 <input type="text" name="name" th:id="name">
             </p>
             <p>
-                <label th:for="surname">Surname <em>*</em></label>
+                <label th:for="surname">Surname</label>
                 <input type="text" name="surname" th:id="surname">
             </p>
             <p>
-                <label th:for="department">Department <em>*</em></label>
+                <label th:for="department">Department</label>
                 <input type="text" name="department" th:id="department">
             </p>
             <p>
-                <label th:for="salary">Salary <em>*</em></label>
+                <label th:for="salary">Salary</label>
                 <input type="text" name="name" th:id="salary">
             </p>
             <p>
-                <label th:for="password">Password <em>*</em></label>
+                <label th:for="password">Password</label>
                 <input type="text" name="password" th:id="password">
             </p>
             <p>
                 <label th:for="roles">Roles </label>
-                <select multiple name="roles" size="3" th:id="roles" required>
+                <select multiple name="roles" size="2" th:id="roles" required>
                     <option disabled>Select roles</option>
                     <option th:each="role : ${allRoles}" th:value="${role}" th:text="${role.role}"></option>
                 </select>
@@ -42,6 +42,7 @@
     </form>
 </div>
 <a th:href="@{/user}"> User information </a>
+|
 <a th:href="@{/logout}"> Logout </a>
 <div>
     <h2>Users table</h2>
