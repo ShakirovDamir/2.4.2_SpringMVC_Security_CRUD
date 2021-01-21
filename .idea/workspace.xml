@@ -9,10 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="20.01.2021 2.41">
+    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="20.01.2021 16.18">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SpringSecurityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SpringSecurityInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SuccessUserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SuccessUserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +42,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,11 +72,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.3.1 CRUD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comRusinDV/Spring2.4.2-master/Spring2.4.2-master" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="web.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
@@ -206,7 +230,15 @@
       <workItem from="1611062981730" duration="4665000" />
       <workItem from="1611090145207" duration="6133000" />
       <workItem from="1611097501450" duration="3043000" />
-      <workItem from="1611142981520" duration="5635000" />
+      <workItem from="1611142981520" duration="6294000" />
+      <workItem from="1611151080935" duration="8716000" />
+      <workItem from="1611160598525" duration="4158000" />
+      <workItem from="1611176176054" duration="4642000" />
+      <workItem from="1611181037666" duration="4257000" />
+      <workItem from="1611223953626" duration="3428000" />
+      <workItem from="1611227805800" duration="1954000" />
+      <workItem from="1611229960675" duration="2420000" />
+      <workItem from="1611232557823" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="07.01.2021 16.56">
       <created>1610027811585</created>
@@ -299,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611099734104</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20.01.2021 16.18">
+      <created>1611148760042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611148760042</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +370,37 @@
     <MESSAGE value="19.01.2021 16.22" />
     <MESSAGE value="19.01.2021 16.30" />
     <MESSAGE value="20.01.2021 2.41" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.01.2021 2.41" />
+    <MESSAGE value="20.01.2021 16.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.01.2021 16.18" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java</url>
+          <line>19</line>
+          <properties class="web.service.UserDetailsServiceImpl" method="loadUserByUsername">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="hashIsZero" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="name" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
