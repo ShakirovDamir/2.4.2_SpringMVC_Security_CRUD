@@ -15,7 +15,8 @@ public class AdminController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/admin")
+//    @GetMapping("/admin")
+    @GetMapping(value = "/admin", produces = "text/plain;charset=UTF-8")
     public String listUsers(ModelMap model) {
         model.addAttribute("listUsers", userService.listUsers());
         model.addAttribute("allRoles", userService.getAllRoles());

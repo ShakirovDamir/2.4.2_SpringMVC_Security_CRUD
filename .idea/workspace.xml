@@ -9,29 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="20.01.2021 16.18">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+    <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="21.01.2021 15.46">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SpringSecurityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SpringSecurityInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/security/SuccessUserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/security/SuccessUserHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/editUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comRusinDV/Spring2.4.2-master/Spring2.4.2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringMVC_JSP-encoding-rus/SpringMVC_JSP encoding rus" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -101,7 +85,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="973b9285-d7b2-41dc-9492-ade952fc92a9" />
+        <option name="BASE_DIRECTORY_NAME" value="846c71cd-530a-4fb7-a098-448e2044140f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -109,7 +93,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62801" />
+        <option name="DEBUG_PORT" value="58841" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -238,7 +222,15 @@
       <workItem from="1611223953626" duration="3428000" />
       <workItem from="1611227805800" duration="1954000" />
       <workItem from="1611229960675" duration="2420000" />
-      <workItem from="1611232557823" duration="626000" />
+      <workItem from="1611232557823" duration="1075000" />
+      <workItem from="1611234066721" duration="6837000" />
+      <workItem from="1611241699363" duration="198000" />
+      <workItem from="1611242095313" duration="289000" />
+      <workItem from="1611242809966" duration="2331000" />
+      <workItem from="1611265392695" duration="2340000" />
+      <workItem from="1611312189234" duration="5247000" />
+      <workItem from="1611318222912" duration="632000" />
+      <workItem from="1611319453465" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="07.01.2021 16.56">
       <created>1610027811585</created>
@@ -338,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611148760042</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="21.01.2021 15.46">
+      <created>1611233268489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611233268489</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +370,8 @@
     <MESSAGE value="19.01.2021 16.30" />
     <MESSAGE value="20.01.2021 2.41" />
     <MESSAGE value="20.01.2021 16.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.01.2021 16.18" />
+    <MESSAGE value="21.01.2021 15.46" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.01.2021 15.46" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

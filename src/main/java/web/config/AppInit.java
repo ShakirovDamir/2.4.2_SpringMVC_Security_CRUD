@@ -4,6 +4,8 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import web.security.SecurityConfig;
+
 import javax.servlet.*;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -11,10 +13,7 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     // Метод, указывающий на класс конфигурации
     @Override
     protected Class<?>[] getRootConfigClasses() {
-//        return new Class<?>[]{
-//                HibernateConfig.class
        return null;
-//    };
     }
 
     // Добавление конфигурации, в которой инициализируем ViewResolver, для корректного отображения jsp.
@@ -31,19 +30,35 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return new String[]{"/"};
     }
 
-    /* Данный метод служит для решения проблем с кодировкой, фильтр обрабатывает первичные запросы */
+    @Override
+    public void onStartup(ServletContext servletContext) throws ServletException {
+        //create the root Spring application context
+        AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
+        rootContext.register(WebConfig.class, SecurityConfig.class);
 
-//    protected Filter[] getServletFilters() {
-//        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
-//        characterEncodingFilter.setEncoding("UTF-8");
-//        characterEncodingFilter.setForceEncoding(true);
-//        return new Filter[] {characterEncodingFilter};
-//    }
+        servletContext.addListener(new ContextLoaderListener(rootContext));
 
-//public void onStartup(ServletContext servletContext) throws ServletException {
-//    FilterRegistration.Dynamic encodingFilter = servletContext.addFilter("encoding-filter", new CharacterEncodingFilter());
-//    encodingFilter.setInitParameter("encoding", "UTF-8");
-//    encodingFilter.setInitParameter("forceEncoding", "true");
-//    encodingFilter.addMappingForUrlPatterns(null, true, "/*");
-//}
+        //Create the dispatcher servlet's Spring application context
+        AnnotationConfigWebApplicationContext servletAppContext = new AnnotationConfigWebApplicationContext();
+        servletAppContext.register(HibernateConfig.class);
+
+        DispatcherServlet dispatcherServlet = new DispatcherServlet(servletAppContext);
+        // throw NoHandlerFoundException to controller ExceptionHandler.class. Used for <error-page> analogue
+        dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
+
+        //register and map the dispatcher servlet
+        //note Dispatcher servlet with constructor arguments
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
+        dispatcher.setLoadOnStartup(1);
+        dispatcher.addMapping("/");
+
+        FilterRegistration.Dynamic encodingFilter = servletContext.addFilter("encoding-filter", new CharacterEncodingFilter());
+        encodingFilter.setInitParameter("encoding", "UTF-8");
+        encodingFilter.setInitParameter("forceEncoding", "true");
+        //encodingFilter.setInitParameter("forceEncoding", "false");
+        //encodingFilter.addMappingForUrlPatterns(null, true, "/*");
+        encodingFilter.addMappingForUrlPatterns(null, false, "/*");
+
+    }
+
 }
