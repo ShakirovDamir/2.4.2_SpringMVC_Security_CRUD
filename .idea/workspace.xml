@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738eae4b-2a4b-46ee-9ebe-4df88a23847c" name="Default Changelist" comment="21.01.2021 15.46">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringMVC_JSP-encoding-rus/SpringMVC_JSP encoding rus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Полезное/httpsgithub/httpsgithub.comRusinDV/Spring2.4.2-master/Spring2.4.2-master" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -230,7 +227,12 @@
       <workItem from="1611265392695" duration="2340000" />
       <workItem from="1611312189234" duration="5247000" />
       <workItem from="1611318222912" duration="632000" />
-      <workItem from="1611319453465" duration="325000" />
+      <workItem from="1611319453465" duration="3369000" />
+      <workItem from="1611325078320" duration="431000" />
+      <workItem from="1611325702325" duration="205000" />
+      <workItem from="1611326042527" duration="450000" />
+      <workItem from="1611326632808" duration="645000" />
+      <workItem from="1611327697322" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="07.01.2021 16.56">
       <created>1610027811585</created>
@@ -337,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611233268489</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="21.01.2021 15.46">
+      <created>1611319899617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611319899617</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,23 +383,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="21.01.2021 15.46" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="240" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java</url>
-          <line>19</line>
-          <properties class="web.service.UserDetailsServiceImpl" method="loadUserByUsername">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="239" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.String" memberName="hashIsZero" />
